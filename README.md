@@ -29,12 +29,22 @@ Asynchronous FIFOs are commonly used in various applications, such as communicat
 It's important to note that designing and implementing asynchronous FIFOs can be complex due to the need to handle timing and metastability issues properly. Many hardware description languages (HDLs) provide libraries or pre-built components for asynchronous FIFOs to simplify their integration into digital designs.
 
 
-<img width="1000" alt="image" src="https://github.com/Ragineeiitb/Asynchronous-Dual-clock-FIFO/assets/141806156/bb8098e1-b987-4615-af56-0567c21a3d4a">
+<img width="1000" alt="image" src="https://github.com/Ragineeiitb/Asynchronous-_Dual_clock_FIFO/assets/141806156/3fcc1504-8f0b-43f6-a2a2-e044b27e33d0">
 
 
 
 
-<img width="1000" alt="image" src="https://github.com/Ragineeiitb/Asynchronous-Dual-clock-FIFO/assets/141806156/c6bcdf0f-ce45-4190-987b-37d50037d5c0">
+
+
+<img width="1000" alt="image" src="https://github.com/Ragineeiitb/Asynchronous-_Dual_clock_FIFO/assets/141806156/973ca145-d2ad-48bf-a18c-fe674a07e189">
+
+
+
+
+
+
+
+
 
 
 
