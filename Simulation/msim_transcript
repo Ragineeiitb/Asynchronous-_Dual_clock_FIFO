@@ -1,0 +1,129 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Asynchronous_FIFO_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/b_to_g.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/b_to_g.v 
+# -- Compiling module b_to_g
+# 
+# Top level modules:
+# 	b_to_g
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/Asynchronous_FIFO.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/Asynchronous_FIFO.v 
+# -- Compiling module Asynchronous_FIFO
+# 
+# Top level modules:
+# 	Asynchronous_FIFO
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/synchro_r2W.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/synchro_r2W.v 
+# -- Compiling module synchro_r2W
+# 
+# Top level modules:
+# 	synchro_r2W
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/synchro_W2r.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/synchro_W2r.v 
+# -- Compiling module synchro_W2r
+# 
+# Top level modules:
+# 	synchro_W2r
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/readptr_empty.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/readptr_empty.v 
+# -- Compiling module readptr_empty
+# 
+# Top level modules:
+# 	readptr_empty
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/writeptr_full.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/writeptr_full.v 
+# -- Compiling module writeptr_full
+# 
+# Top level modules:
+# 	writeptr_full
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/fifomem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/fifomem.v 
+# -- Compiling module fifomem
+# 
+# Top level modules:
+# 	fifomem
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/Asyncronous_FIFO {D:/Asyncronous_FIFO/tb_fifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:30:41 on Aug 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/Asyncronous_FIFO" D:/Asyncronous_FIFO/tb_fifo.v 
+# -- Compiling module tb_fifo
+# 
+# Top level modules:
+# 	tb_fifo
+# End time: 10:30:41 on Aug 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_fifo
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_fifo 
+# Start time: 10:30:42 on Aug 12,2023
+# Loading work.tb_fifo
+# Loading work.Asynchronous_FIFO
+# Loading work.synchro_r2W
+# Loading work.synchro_W2r
+# Loading work.fifomem
+# Loading work.readptr_empty
+# Loading work.b_to_g
+# Loading work.writeptr_full
+# ** Warning: (vsim-3015) D:/Asyncronous_FIFO/readptr_empty.v(19): [PCDPC] - Port size (4) does not match connection size (5) for port 'b'. The port definition is at: D:/Asyncronous_FIFO/b_to_g.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo/dutoutput/rptr_empty/g1 File: D:/Asyncronous_FIFO/b_to_g.v
+# ** Warning: (vsim-3015) D:/Asyncronous_FIFO/readptr_empty.v(19): [PCDPC] - Port size (4) does not match connection size (5) for port 'g'. The port definition is at: D:/Asyncronous_FIFO/b_to_g.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo/dutoutput/rptr_empty/g1 File: D:/Asyncronous_FIFO/b_to_g.v
+# ** Warning: (vsim-3015) D:/Asyncronous_FIFO/writeptr_full.v(18): [PCDPC] - Port size (4) does not match connection size (5) for port 'b'. The port definition is at: D:/Asyncronous_FIFO/b_to_g.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo/dutoutput/wptr_full/g2 File: D:/Asyncronous_FIFO/b_to_g.v
+# ** Warning: (vsim-3015) D:/Asyncronous_FIFO/writeptr_full.v(18): [PCDPC] - Port size (4) does not match connection size (5) for port 'g'. The port definition is at: D:/Asyncronous_FIFO/b_to_g.v(1).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_fifo/dutoutput/wptr_full/g2 File: D:/Asyncronous_FIFO/b_to_g.v
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Raginee  Hostname: LAPTOP-ONGF8DEL  ProcessID: 20528
+#           Attempting to use alternate WLF file "./wlft2s93je".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft2s93je
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $finish    : D:/Asyncronous_FIFO/tb_fifo.v(49)
+#    Time: 4540 ns  Iteration: 0  Instance: /tb_fifo
+# End time: 10:47:47 on Aug 12,2023, Elapsed time: 0:17:05
+# Errors: 0, Warnings: 6
