@@ -1,0 +1,1 @@
+module Asynchronous_FIFO(input clk1,clk2,read_en,write_en,[3:0]read_addr,[3:0]write_addr,[7:0]write_data,[7:0]read_data);
